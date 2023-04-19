@@ -2,6 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">WELCOME TO OUR PROJECT</h1>
+<div class="w-100 d-flex flex-wrap">
+
+    @foreach (var FC in Model)
+    {
+        <div class="card mb-3 mx-3" style="width:32rem">
+            <img src=@FC.FoodShopImg class="card-img-top" />
+            <div class="card-body">
+                <h4 class="card-title">@FC.FoodShopName</h4>
+                <p class="card-text">
+                    เบอร์ติดต่อ :@FC.ShopContact              <br>
+                    @FC.FoodRecommened
+                </p>
+                <a href="#" class="btn btn-primary">หิวก็กด อยากอดก็ข้าม</a>
+            </div>
+        </div>
+    }
 </div>

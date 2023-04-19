@@ -9,5 +9,6 @@ namespace WEB_APP_PROJECT.Data
             : base(options)
         {
         }
+        public DbSet<Models.FC> FoodCourts { get; set; }
     }
 }
