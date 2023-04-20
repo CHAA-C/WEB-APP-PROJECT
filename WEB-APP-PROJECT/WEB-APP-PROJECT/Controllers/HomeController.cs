@@ -7,16 +7,12 @@ namespace WEB_APP_PROJECT.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
+        private readonly ILogger<HomeController> _logger;
 
         private readonly ApplicationDbContext _db;
-        public HomeController(ApplicationDbContext db)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
         {
+            _logger = logger;
             _db = db;
         }
 
