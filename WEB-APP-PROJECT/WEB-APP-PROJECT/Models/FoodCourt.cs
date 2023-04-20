@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace WEB_APP_PROJECT.Models
 {
-    public class FC
+    public class FoodCourt
     {
         [Key]
         public int Id { get; set; }

@@ -1,21 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using WEB_APP_PROJECT.Data;
 using WEB_APP_PROJECT.Models;
 
 namespace WEB_APP_PROJECT.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        private readonly ApplicationDbContext _db;
+        public HomeController(ApplicationDbContext db)
         {
-            _logger = logger;
+            _db = db;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable <FoodCourt> allFood = _db.FoodCourts;
+
+            return View(allFood);
         }
 
         public IActionResult Privacy()
