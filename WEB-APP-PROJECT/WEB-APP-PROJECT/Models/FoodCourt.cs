@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace WEB_APP_PROJECT.Models
 {
     public class FoodCourt
     {
+
         [Key]
         public int Id { get; set; }
 
@@ -14,7 +16,6 @@ namespace WEB_APP_PROJECT.Models
         public string? FoodRecommened { get; set; }
         public int? RiderCount { get; set; }
         public string? FoodShopImg { get; set; }
-
 
     }
 }

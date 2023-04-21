@@ -10,5 +10,6 @@ namespace WEB_APP_PROJECT.Data
         {
         }
         public DbSet<Models.FoodCourt> FoodCourts { get; set; }
+        public DbSet<Models.Orders> Orders { get; set; }
     }
 }

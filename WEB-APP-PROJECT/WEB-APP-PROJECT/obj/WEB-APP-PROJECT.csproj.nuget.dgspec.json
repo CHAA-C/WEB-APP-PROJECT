@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Source\\Repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Source\\Repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj": {
+    "C:\\Users\\USER\\source\\repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Source\\Repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj",
         "projectName": "WEB-APP-PROJECT",
-        "projectPath": "C:\\Users\\USER\\Source\\Repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\WEB-APP-PROJECT.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Source\\Repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\obj\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\WEB-APP-PROJECTLASTEST\\WEB-APP-PROJECT\\WEB-APP-PROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
